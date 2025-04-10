@@ -3766,19 +3766,15 @@ textarea.form-control-lg {
   align-items: center;
   justify-content: space-between;
 }
-/**************************************************
-********************Logo da pagina*****************
-***************************************************
-***************************************************/
-.navbar-brand {
-  padding-top: var(--bs-navbar-brand-padding-y);
-  padding-bottom: var(--bs-navbar-brand-padding-y);
-  margin-right: var(--bs-navbar-brand-margin-end);
-  font-size: var(--bs-navbar-brand-font-size);
-  color: var(--bs-navbar-brand-color);
-  text-decoration: none;
-  white-space: nowrap;
+
+.textoProjeto{
+  color: #000000;
+  font-size: 3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #fcfcfc;
 }
+
 .navbar-brand:hover, .navbar-brand:focus {
   color: var(--bs-navbar-brand-hover-color);
 }
@@ -4143,7 +4139,7 @@ textarea.form-control-lg {
 }
 
 .navbar-dark {
-  --bs-navbar-color: rgba(255, 255, 255, 0.55);
+  --bs-navbar-color: rgba(0, 0, 0, 0.55);
   --bs-navbar-hover-color: rgba(255, 255, 255, 0.75);
   --bs-navbar-disabled-color: rgba(255, 255, 255, 0.25);
   --bs-navbar-active-color: #fff;
@@ -10949,9 +10945,10 @@ p {
 header.masthead {
   padding-top: 10.5rem;
   padding-bottom: 6rem;
+
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/header-bg.jpg");
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../assets/img/background.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
